@@ -1,12 +1,10 @@
 
-const H1 = document.querySelector("h1")
-const Text = document.querySelector("#text")
-const Buttons = document.querySelector("#buttons")
+function reliquor() {
+    let b = parseInt(document.getElementById("beans").value);
+    document.getElementById("liquor").value = 8 * b;
+}
 
-function start() {
-    
-    H1.textContent = "Vanilla";
-
-    Text.innerHTML = "vanilla";
-
+function rebeans() {
+    let l = parseInt(document.getElementById("liquor").value);
+    document.getElementById("beans").value = l /8;
 }

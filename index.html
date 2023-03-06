@@ -7,11 +7,13 @@
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body onload="start()">
-    <h1></h1>
-    <div id="text">
-    </div>
-    <div id="buttons">
-    </div>
+  <body>
+    <h1>Vanilla</h1>
+
+    <label for="beans">Beans: </label>
+    <input id="beans" type="text" value="1" oninput="reliquor();" />
+    
+    <label for="liquor">Liquor: </label>
+    <input id="liquor" type="text" value="8" oninput="rebeans();" />
   </body>
 </html>
