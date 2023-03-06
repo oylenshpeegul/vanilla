@@ -10,10 +10,32 @@
   <body>
     <h1>Vanilla</h1>
 
-    <label for="beans">Beans: </label>
-    <input id="beans" type="text" value="1" oninput="reliquor();" />
+    <!-- <label for="beans">Beans: </label> -->
+    <!-- <input id="beans" type="text" value="1" oninput="beans()" /> -->
+    <!-- <br /> -->
+    <!-- <label for="liquor">Liquor: </label> -->
+    <!-- <input id="liquor" type="text" value="8" oninput="liquor()" /> -->
+    <!-- <br /> -->
+    <!-- <label for="double">Double-fold: </label> -->
+    <!-- <input id="double" type="text" value="4" oninput="double_fold()" /> -->
     
-    <label for="liquor">Liquor: </label>
-    <input id="liquor" type="text" value="8" oninput="rebeans();" />
+    <div class="tabl">
+      <div class="row">
+        <div class="cell"> Beans (oz)</div>
+        <div class="cell"> Liquor (fl oz)</div>
+        <div class="cell"> Double-fold (fl oz)</div>
+      </div>
+      <div class="row">
+        <div class="cell">
+          <input id="beans" type="text" value="1" oninput="beans();" />
+        </div>
+        <div class="cell">
+          <input id="liquor" type="text" value="8" oninput="liquor();" />
+        </div>
+        <div class="cell">
+          <input id="double" type="text" value="4" oninput="double_fold();" />
+        </div>
+      </div>
+    </div>
   </body>
 </html>
