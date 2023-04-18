@@ -8,6 +8,11 @@ h1 {
     text-align: center;
 }
 
+p {
+    margin: 2em;
+    width: 95%;
+}
+
 input {
     background: #6F4E37;
     border-style: none;

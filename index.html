@@ -9,10 +9,12 @@
   </head>
   <body>
     <h1>Vanilla</h1>
+    <!-- <p><a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm?CFRPart=169&showFR=1">According to the FDA</a> vanilla extract must contain not less than 13.35 ounces of vanilla beans per gallon of liquor. Since 13.35 / 16 = 0.834375, we need at least 0.83 ounces of vanilla beans per cup of liquor. We will round that up to 1 ounce per cup, which exceeds the minimum.</p> -->
     <div class="tabl">
       <div class="row">
         <div class="cell"> Beans (oz)</div>
         <div class="cell"> Liquor (fl oz)</div>
+        <div class="cell"> 1 1/2-fold (fl oz)</div>
         <div class="cell"> Double-fold (fl oz)</div>
       </div>
       <div class="row">
@@ -21,6 +23,9 @@
         </div>
         <div class="cell">
           <input id="liquor" type="text" value="8" oninput="liquor();" />
+        </div>
+        <div class="cell">
+          <input id="oneandahalf" type="text" value="6" oninput="one_and_a_half_fold();" />
         </div>
         <div class="cell">
           <input id="double" type="text" value="4" oninput="double_fold();" />
